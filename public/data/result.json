@@ -1,0 +1,17 @@
+{
+  "user_info": {
+    "email": "mock3@example.com"
+  },
+  "finance_knowledge_evaluation": 1,
+  "risk_evasion_evaluation": 3,
+  "loss_evasion_evaluation": 5,
+  "evasion_grade": {
+    "1": "극도로 높은  회피 경향",
+    "2": "매우 높은  회피 경향",
+    "3": "높은 회피  경향",
+    "4": "보통의  회피 경향",
+    "5": "낮은  회피 경향",
+    "6": "매우  낮은 회피 경향",
+    "7": "극도로 낮은  회피 경향"
+  }
+}

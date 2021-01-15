@@ -1,0 +1,10 @@
+{
+  "survey": {
+    "id": 1,
+    "content": "회사채를 사는 경우, 회사채 만기까지만 기다리면 투자금을 언제나 받을 수 있다.|(A)True|(B)False"
+  },
+  "progress": {
+    "current": 1,
+    "total": 13
+  }
+}
