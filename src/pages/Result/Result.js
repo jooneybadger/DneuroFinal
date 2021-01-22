@@ -6,6 +6,7 @@ import { SJ_API, HS_API } from "../../config";
 import { boxShadow, justifyCenter, theme, imgUrl } from "../../styles/CommonStyle";
 import HalfDoughnut from "./Component/HalfDoughnut";
 import HalfDoughnuts from "./Component/HalfDoughnuts";
+import Nav from "../Main/Component/Nav";
 
 const Result = () => {
   const history = useHistory();
@@ -40,6 +41,7 @@ const Result = () => {
 
   return (
     <Fragment>
+      <Nav />
       <WrapResult>
         <Logo>
           <img onClick={goToMain} src={imgUrl.logo} alt="Logo" />

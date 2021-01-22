@@ -29,13 +29,17 @@ const Main = () => {
     alert("로그인이 필요합니다.");
   };
 
+  const goToMain = () => {
+    history.push("Main");
+  };
+
   return (
     <>
       <Nav />
       <WrapMain>
         <WrapBody>
           <Logo>
-            <img src={imgUrl.logo} alt="dneuro" />
+            <img onClick={goToMain} src={imgUrl.logo} alt="dneuro" />
           </Logo>
           <Title>
             내 성격에 딱!

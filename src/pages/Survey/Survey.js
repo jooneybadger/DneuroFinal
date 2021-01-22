@@ -6,6 +6,7 @@ import { useHistory } from "react-router-dom";
 import { SJ_API } from "../../config";
 import { flexCenter, boxShadow, theme, imgUrl } from "../../styles/CommonStyle";
 import ProgressBar from "./components/ProgressBar";
+import Nav from "../Main/Component/Nav";
 
 const Survey = () => {
   const history = useHistory();
@@ -119,6 +120,7 @@ const Survey = () => {
   return (
     <ThemeProvider theme={theme}>
       <Fragment>
+        <Nav />
         <WrapSurvey>
           <SurveyBackground>
             <Header>
@@ -278,11 +280,12 @@ const Retest = styled.button`
 `;
 
 const LogoImage = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 120px;
 
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
 
   &:hover {
     cursor: pointer;

@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from "styled-components";
 import { justifyCenter, theme, imgUrl } from "../../styles/CommonStyle";
 import { SJ_API, SIGNUP_DATA } from "../../config";
 import { useHistory, Link } from "react-router-dom";
+import Nav from "../Main/Component/Nav";
 
 const SignUp = () => {
   const history = useHistory();
@@ -105,15 +106,20 @@ const SignUp = () => {
     setNationality(value);
   };
 
+  const sendToMain = () => {
+    history.push("/Main");
+  };
+
   console.log(idValue, pw, gender, nationality, birthValue);
 
   return (
     <ThemeProvider theme={theme}>
+      <Nav />
       <Fragment>
         <Background>
           <WrapSignUp>
             <Header>
-              <HeaderImage src={imgUrl.logo} />
+              <HeaderImage onClick={sendToMain} src={imgUrl.logo} />
             </Header>
             <Body>
               <BodyHeader>회원가입</BodyHeader>

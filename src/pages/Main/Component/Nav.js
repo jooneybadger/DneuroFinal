@@ -44,12 +44,13 @@ const Nav = () => {
     <NavBar>
       <Img onClick={goToMain} src="/images/JM/dneuro.png" alt="logo" />
       <Container>
+        <Home onClick={goToMain}>홈</Home>
         {login ? (
           <Login onClick={goToLogout}>로그아웃</Login>
         ) : (
           <Login onClick={goToSignIn}>로그인</Login>
         )}
-        <SignUp onClick={goToSignUp}>회원가입</SignUp>
+        {login ? "" : <SignUp onClick={goToSignUp}>회원가입</SignUp>}
         {login ? <Mypage onClick={goToMyPage}>결과 다시보기</Mypage> : ""}
       </Container>
     </NavBar>
@@ -82,6 +83,20 @@ const Container = styled.div`
   position: absolute;
   right: 50px;
   margin: 15px 0;
+`;
+
+const Home = styled.div`
+  padding-top: 7px;
+  color: #222;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 10px;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.1s;
+  }
 `;
 
 const Login = styled.div`

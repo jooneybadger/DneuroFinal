@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { LOGINIMAGE } from "../SignIn/data/data";
 import { SJ_API, HS_API } from "../../config";
 import { boxShadow, theme, imgUrl } from "../../styles/CommonStyle";
+import Nav from "../Main/Component/Nav";
 
 const { Kakao } = window;
 
@@ -81,6 +82,7 @@ const SignIn = () => {
 
   return (
     <Fragment>
+      <Nav />
       <WrapSignIn>
         <Logo>
           <img src={imgUrl.logo} alt="logo" />

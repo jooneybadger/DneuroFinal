@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { flexCenter, imgUrl, theme } from "../../styles/CommonStyle";
 import { SJ_API, HS_API } from "../../config";
+import Nav from "../Main/Component/Nav";
 
 const Certification = ({ history }) => {
   const [userName, setUserName] = useState("");
@@ -64,11 +65,16 @@ const Certification = ({ history }) => {
     }
   };
 
+  const goToMain = () => {
+    history.push("/Main");
+  };
+
   return (
     <Fragment>
+      <Nav />
       <ThemeProvider theme={theme}>
         <Certify>
-          <Logo src={imgUrl.logo} alt="디뉴로 로고" />
+          <Logo onClick={goToMain} src={imgUrl.logo} alt="디뉴로 로고" />
           <WrapHeader>
             <Header>본인 인증</Header>
           </WrapHeader>
@@ -98,9 +104,13 @@ const Certification = ({ history }) => {
 export default Certification;
 
 const Logo = styled.img`
-  width: 120px;
-  height: 110px;
+  width: 110px;
+  height: 120px;
   margin: 70px 0;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 const Certify = styled.section`
