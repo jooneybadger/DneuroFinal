@@ -14,11 +14,9 @@
 ```javascript
   const member = 
         [{id : 0,
-          'name': '공주민',
-          'task': 'SignIn', 'Main', 'Result'},
+          'name': '공주민'},
          {id : 1,
-          'name': '박영준',
-          'task': 'SignUp', Survey'}]
+          'name': '박영준'}]
 ```
 
 ### Team Members : Back-End
@@ -26,11 +24,9 @@
 ```javascript
   const member = 
         [{id : 0,
-          'name': '백승진',
-          'task': ''},
+          'name': '백승진',},
          {id : 1,
-          'name': '정현석',
-          'task': ''}]
+          'name': '정현석',}]
 ```
 
 # What we did
