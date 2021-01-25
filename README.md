@@ -2,7 +2,8 @@
 
 # Introduction
 <a href="https://www.youtube.com/watch?v=TFihk6oYf8o"><img src="https://i.ibb.co/NYdSskq/dneurologo.png"  width="400" height="370"></a>
-클릭해서 영상으로 이동(Main Page && Detail Page)
+
+<div>클릭해서 영상으로 이동(Main Page && Detail Page)</div>
 
 ## What did we use
 
