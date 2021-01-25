@@ -1,14 +1,16 @@
 # Latte & Iced Americano
 
 # Introduction
+[![Watch the video](https://ibb.co/Bs5Nt7J)](https://www.youtube.com/watch?v=TFihk6oYf8o)
+클릭해서 영상으로 이동(Main Page && Detail Page)
 
-# What did we use
+## What did we use
 
 - Language: JavaScript
 - Library: React
 - Third-party: React-Router, Styled-components, React-Slick, Redux, Hooks, Chart.js
 
-# Who we are
+## Who we are
 ### Team Members : Front-End
 
 ```javascript
