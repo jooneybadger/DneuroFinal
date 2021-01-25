@@ -1,7 +1,7 @@
 # Latte & Iced Americano
 
 # Introduction
-[![Watch the video](https://ibb.co/Bs5Nt7J)](https://www.youtube.com/watch?v=TFihk6oYf8o)
+[![Watch the video](https://ibb.co/Bs5Nt7J.jpg)](https://www.youtube.com/watch?v=TFihk6oYf8o)
 클릭해서 영상으로 이동(Main Page && Detail Page)
 
 ## What did we use
