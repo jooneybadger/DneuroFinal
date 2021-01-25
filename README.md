@@ -1,7 +1,7 @@
 # Latte & Iced Americano
 
 # Introduction
-[![Watch the video](/images/JM/dneuro.png)](https://www.youtube.com/watch?v=TFihk6oYf8o)
+<a href="https://www.youtube.com/watch?v=TFihk6oYf8o"><img src="/images/JM/dneuro.png"></a> 
 클릭해서 영상으로 이동(Main Page && Detail Page)
 
 ## What did we use
